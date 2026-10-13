@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta al equipo de G3BKeys.">
+    <title>Contacto | G3BKeys</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/Logotipo.png">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar container">
+          <<a href="index.html" class="logo">
+    <img src="img/Logotipo.png" alt="G3BKeys">
+    <span>G3BKeys</span>
+</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html"       class="nav-link">Inicio</a></li>
+            <li><a href="proyecto.html"    class="nav-link">Proyecto</a></li>
+            <li><a href="funciones.html"   class="nav-link">Funciones</a></li>
+            <li><a href="productos.html"    class="nav-link">Productos</a></li>
+            <li><a href="tecnologias.html" class="nav-link">Tecnologías</a></li> 
+            <li><a href="base_de_datos.html"  class="nav-link">Base de datos</a></li>
+            <li><a href="equipo.html"      class="nav-link">Equipo</a></li>
+            <li><a href="contacto.html"    class="nav-link nav-cta"><i class="fas fa-headset"></i> Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-grid">
+
+            <!-- Columna izquierda: info -->
+            <div class="contact-info">
+                <span class="section-label" style="color: var(--green);">CONTACTO</span>
+                <h2>Hablemos sobre <span>G3BKeys</span></h2>
+                <p>¿Tienes dudas, quieres cotizar un plan o agendar una demostración? Escríbenos por cualquiera de estos canales.</p>
+
+                <div class="contact-list">
+                    <a href="https://wa.me/50363385299" target="_blank" rel="noopener" class="contact-item">
+                        <div class="ci-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <span>+503 6338-5299</span>
+                        </div>
+                    </a>
+
+                    <a href="mailto:contacto@g3bkeys.com" class="contact-item">
+                        <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <strong>Correo electrónico</strong>
+                            <span>G3BKeys@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="tel:+50363385299" class="contact-item">
+                        <div class="ci-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <strong>Teléfono</strong>
+                            <span>+503 6338-5299</span>
+                        </div>
+                    </a>
+
+                    <div class="contact-item">
+                        <div class="ci-icon"><i class="fas fa-location-dot"></i></div>
+                        <div>
+                            <strong>Ubicación</strong>
+                            <span>El Salvador, Centroamérica</span>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="fm-subtitle" style="color: var(--green);">SÍGUENOS</span>
+                <div class="social-row">
+                    <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-btn" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" class="social-btn" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social-btn" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+
+            <!-- Columna derecha: formulario -->
+            <form class="contact-form" id="contactForm">
+                <h3>Envíanos un mensaje</h3>
+                <p>Te responderemos lo antes posible.</p>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo</label>
+                        <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">Asunto</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="cotizacion">Quiero cotizar un plan</option>
+                        <option value="demo">Quiero agendar una demostración</option>
+                        <option value="soporte">Necesito soporte técnico</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos qué necesitas..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Enviar mensaje
+                </button>
+
+                <p class="form-note">También puedes escribirnos directo por WhatsApp para una respuesta más rápida.</p>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+<section class="page-nav-section">
+    <div class="container page-nav">
+        <a href="precios.html" class="page-nav-link prev">
+            <i class="fas fa-arrow-left"></i>
+            <div><span>Anterior</span><strong>Precios</strong></div>
+        </a>
+        <a href="index.html" class="page-nav-link next">
+            <div><span>Volver</span><strong>Inicio</strong></div>
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <div class="footer-brand">
+            <a href="index.html" class="logo">
+                <span class="logo-g3b">G3B</span><span class="logo-keys">Keys</span>
+            </a>
+            <p>Sistema de Gestión de Venta de Keys de Videojuegos.</p>
+        </div>
+        <div class="footer-links">
+            <h4>Navegación</h4>
+            <a href="index.html">Inicio</a>
+            <a href="proyecto.html">Proyecto</a>
+            <a href="funciones.html">Funciones</a>
+            <a href="tecnologias.html">Tecnologías</a>
+        </div>
+       <div class="footer-links">
+            <h4>Proyecto</h4>
+            <a href="productos.html">Productos</a>
+            <a href="base_de_datos.html">Base de datos</a>
+            <a href="equipo.html">Equipo</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> G3BKeys. Proyecto académico — Módulo 3.1.</p>
+    </div>
+</footer>
+
+<button id="backToTop" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

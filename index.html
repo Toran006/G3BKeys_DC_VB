@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="G3BKeys - Sistema de gestión de venta de Keys de videojuegos">
+    <title>G3BKeys | Gestión de Keys de Videojuegos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/Logotipo.png">
+</head>
+
+<body>
+
+<!-- ===========================
+     HEADER
+=========================== -->
+<header class="header">
+    <nav class="navbar container">
+        <<a href="index.html" class="logo">
+    <img src="img/Logotipo.png" alt="G3BKeys">
+    <span>G3BKeys</span>
+</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+    <li><a href="index.html"       class="nav-link">Inicio</a></li>
+    <li><a href="proyecto.html"    class="nav-link">Proyecto</a></li>
+    <li><a href="funciones.html"   class="nav-link">Funciones</a></li>
+    <li><a href="productos.html"    class="nav-link">Productos</a></li>
+    <li><a href="tecnologias.html" class="nav-link">Tecnologías</a></li> 
+    <li><a href="base_de_datos.html"  class="nav-link">Base de datos</a></li>
+    <li><a href="equipo.html"      class="nav-link">Equipo</a></li>
+    <li>
+        <a href="contacto.html" class="nav-link nav-cta">
+            <i class="fas fa-headset"></i> Contacto
+        </a>
+    </li>
+</ul>
+    </nav>
+</header>
+
+<main>
+
+<!-- ===========================
+     HERO
+=========================== -->
+<section class="hero">
+    <div class="hero-background"></div>
+
+    <div class="container hero-content">
+        <div class="hero-text">
+            <div class="hero-badge">
+                <i class="fas fa-gamepad"></i>
+                Victor Andres Beltran Perez &amp; Diego Anderson Ortiz Cárcamo
+            </div>
+
+            <h1>
+                Gestiona tus
+                <span>Keys</span>
+                de videojuegos
+            </h1>
+
+            <p class="hero-description">
+                G3BKeys es un sistema de gestión diseñado para administrar
+                de manera organizada el inventario de keys, clientes,
+                proveedores y ventas de una tienda de videojuegos.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="proyecto.html" class="btn btn-primary">
+                    Conocer el proyecto
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="contacto.html" class="btn btn-secondary">
+                    <i class="fas fa-headset"></i> Contactar ahora
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-card">
+            <div class="card-glow"></div>
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <span>G3BKeys System</span>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="code-purple">G3BKeys</span> <span class="code-white">></span> Sistema iniciado...</p>
+                    <p><span class="code-green">✓ Inventario conectado</span></p>
+                    <p><span class="code-green">✓ Base de datos conectada</span></p>
+                    <p><span class="code-green">✓ Sistema listo</span></p>
+                    <p class="terminal-cursor">_</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-indicator">
+        <span>Descubre más</span>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</section>
+
+<section class="games-carousel-section">
+    <div class="container">
+
+        <div class="section-header">
+            <span class="section-tag">CATÁLOGO GAMING</span>
+            <h2>Videojuegos disponibles</h2>
+            <p>
+                Explora algunos de los títulos que pueden formar parte
+                del catálogo de G3BKeys.
+            </p>
+        </div>
+
+        <div class="games-carousel">
+
+            <button class="carousel-btn prev" id="prevGame">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="games-track-container">
+                <div class="games-track" id="gamesTrack">
+
+                    <div class="game-card">
+                        <img src="img/crash_play.jpg" alt="Videojuego 1">
+                        <div class="game-overlay">
+                            <span>GAME KEY</span>
+                        </div>
+                    </div>s
+
+                    <div class="game-card">
+                        <img src="img/Skyrim.jpg" alt="Videojuego 2">
+                        <div class="game-overlay">
+                            <span>GAME KEY</span>
+                        </div>
+                    </div>
+
+                    <div class="game-card">
+                        <img src="img/mario-galaxy.jpg" alt="Videojuego 3">
+                        <div class="game-overlay">
+                            <span>GAME KEY</span>
+                        </div>
+                    </div>
+
+                    <div class="game-card">
+                        <img src="img/Mario_party.jpg" alt="Videojuego 4">
+                        <div class="game-overlay">
+                            <span>GAME KEY</span>
+                        </div>
+                    </div>
+
+                    <div class="game-card">
+                        <img src="img/Dark souls.jpg" alt="Videojuego 5">
+                        <div class="game-overlay">
+                            <span>GAME KEY</span>
+                        </div>
+                    </div>
+
+                    <div class="game-card">
+                        <img src="img/Halo_infinite.jpg" alt="Videojuego 6">
+                        <div class="game-overlay">
+                            <span>GAME KEY</span>
+                        </div>
+                    </div>
+
+                    <div class="game-card">
+                        <img src="img/lies_of_p_pinocho.jpg" alt="Videojuego 7">
+                        <div class="game-overlay">
+                            <span>GAME KEY</span>
+                        </div>
+                    </div>
+
+                    <div class="game-card">
+                        <img src="img/expedition-33.jpg" alt="Videojuego 8">
+                        <div class="game-overlay">
+                            <span>GAME KEY</span>
+                        </div>
+                    </div>
+
+                    <div class="game-card">
+                        <img src="img/smash_bros.jpg" alt="Videojuego 9">
+                        <div class="game-overlay">
+                            <span>GAME KEY</span>
+                        </div>
+                    </div>
+
+                    <div class="game-card">
+                        <img src="img/kingdom hearts.jpg" alt="Videojuego 10">
+                        <div class="game-overlay">
+                            <span>GAME KEY</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="carousel-btn next" id="nextGame">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+
+        </div>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+
+    </div>
+</section>
+
+<!-- ===========================
+     ESTADÍSTICAS
+=========================== -->
+<section class="stats-section">
+    <div class="container stats-grid">
+        <div class="stat-item">
+            <div class="stat-icon"><i class="fas fa-box"></i></div>
+            <div><h3>Inventario</h3><p>Control de Keys</p></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><i class="fas fa-users"></i></div>
+            <div><h3>Clientes</h3><p>Información organizada</p></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><i class="fas fa-cart-shopping"></i></div>
+            <div><h3>Ventas</h3><p>Transacciones registradas</p></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
+            <div><h3>Reportes</h3><p>Información detallada</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- ===========================
+     VISTA PREVIA DEL SISTEMA
+=========================== -->
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">VISTA PREVIA</span>
+            <h2>Conoce la interfaz de <span>G3BKeys</span></h2>
+            <p>Un vistazo al panel principal del sistema de gestión de keys.</p>
+        </div>
+
+        <div class="hero-image-container">
+            <img src="img/Menu_admin.jpeg" alt="Interfaz principal de G3BKeys">
+        </div>
+    </div>
+</section>
+
+<!-- ===========================
+     CTA FINAL
+=========================== -->
+<section class="cta-section">
+    <div class="cta-glow"></div>
+    <div class="container cta-content">
+        <div class="cta-icon"><i class="fas fa-gamepad"></i></div>
+        <h2>G3BKeys</h2>
+        <p>Una forma más organizada de gestionar las keys de videojuegos.</p>
+        <div class="hero-buttons" style="justify-content: center;">
+            <a href="contacto.html" class="btn btn-primary">
+                <i class="fas fa-headset"></i> Contáctanos
+            </a>
+            <a href="productos.html" class="btn btn-secondary">
+                <i class="fas fa-tag"></i> Ver Productos
+            </a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- ===========================
+     FOOTER
+=========================== -->
+<footer class="footer">
+    <div class="container footer-content">
+        <div class="footer-brand">
+            <a href="index.html" class="logo">
+                <span class="logo-g3b">G3B</span><span class="logo-keys">Keys</span>
+            </a>
+            <p>Sistema de Gestión de Venta de Keys de Videojuegos.</p>
+        </div>
+        <div class="footer-links">
+            <h4>Navegación</h4>
+            <a href="index.html">Inicio</a>
+            <a href="proyecto.html">Proyecto</a>
+            <a href="funciones.html">Funciones</a>
+            <a href="tecnologias.html">Tecnologías</a>
+        </div>
+       <div class="footer-links">
+            <h4>Proyecto</h4>
+            <a href="productos.html">Productos</a>
+            <a href="base_de_datos.html">Base de datos</a>
+            <a href="equipo.html">Equipo</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> G3BKeys. Proyecto académico — Módulo 3.1.</p>
+    </div>
+</footer>
+
+<button id="backToTop" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

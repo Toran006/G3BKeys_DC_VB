@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catálogo de videojuegos de G3BKeys. Filtra por plataforma, busca juegos y consulta precios referenciales.">
+    <title>Productos | G3BKeys</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/Logotipo.png">
+    
+</head>
+<body>
+<header class="header">
+    <nav class="navbar container">
+        <a href="index.html" class="logo">
+    <img src="img/Logotipo.png" alt="G3BKeys">
+    <span>G3BKeys</span>
+</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú"><i class="fas fa-bars"></i></button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html" class="nav-link">Inicio</a></li>
+            <li><a href="proyecto.html" class="nav-link">Proyecto</a></li>
+            <li><a href="funciones.html" class="nav-link">Funciones</a></li>
+            <li><a href="productos.html" class="nav-link">Productos</a></li>
+            <li><a href="tecnologias.html" class="nav-link">Tecnologías</a></li>        
+            <li><a href="base_de_datos.html" class="nav-link">Base de datos</a></li>
+            <li><a href="equipo.html" class="nav-link">Equipo</a></li>
+            <li><a href="contacto.html" class="nav-link nav-cta"><i class="fas fa-headset"></i> Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+<section class="page-hero">
+    <div class="hero-background"></div>
+    <div class="container page-hero-content">
+        <span class="page-hero-label">CATÁLOGO DE VIDEOJUEGOS</span>
+        <h1>Encuentra tu próximo <span>juego favorito</span></h1>
+        <p>Explora nuestro catálogo, filtra por plataforma y consulta los precios referenciales de cada videojuego.</p>
+        <nav class="breadcrumb" aria-label="Ruta de navegación"><a href="index.html">Inicio</a><i class="fas fa-chevron-right"></i><span>Productos</span></nav>
+    </div>
+</section>
+<section class="section catalog-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">NUESTRO CATÁLOGO</span>
+      <h2>Videojuegos por <span>plataforma</span></h2>
+      <p>Busca por nombre, selecciona una compañía o plataforma y ordena los resultados por precio.</p>
+    </div>
+    <div class="catalog-tools" role="search" aria-label="Filtros del catálogo">
+      <label class="catalog-field"><i class="fas fa-search"></i><input id="gameSearch" type="search" placeholder="Buscar videojuego..." aria-label="Buscar videojuego por nombre"></label>
+      <label class="catalog-field"><i class="fas fa-gamepad"></i><select id="platformFilter" aria-label="Filtrar por plataforma"><option value="all">Todas las plataformas</option><option>Nintendo</option><option>PlayStation</option><option>Xbox</option><option>Epic Games Store</option><option>Ubisoft Connect</option><option>Steam</option></select></label>
+      <label class="catalog-field"><i class="fas fa-arrow-down-wide-short"></i><select id="sortPrice" aria-label="Ordenar catálogo"><option value="default">Orden predeterminado</option><option value="low">Precio: menor a mayor</option><option value="high">Precio: mayor a menor</option><option value="az">Nombre: A-Z</option></select></label>
+    </div>
+    <div class="catalog-summary"><span id="resultsCount" aria-live="polite">Cargando catálogo...</span><button class="btn btn-secondary" id="clearFilters" type="button"><i class="fas fa-rotate-left"></i> Limpiar filtros</button></div>
+    <div class="product-grid" id="productGrid"></div>
+    <p class="catalog-note"><strong>Nota:</strong> los precios son referenciales y están expresados en dólares estadounidenses (USD). Pueden cambiar según la región, la tienda, la edición del juego y las ofertas vigentes. </p>
+  </div>
+</section>
+<section class="cta-section">
+    <div class="cta-glow"></div><div class="container cta-content">
+        <div class="cta-icon"><i class="fas fa-comments"></i></div>
+        <h2>¿Buscas un videojuego en particular?</h2>
+        <p>Contáctanos para consultar disponibilidad y obtener más información.</p>
+        <a href="contacto.html" class="btn btn-primary">Contáctanos ahora <i class="fas fa-arrow-right"></i></a>
+    </div>
+</section>
+<section class="page-nav-section"><div class="container page-nav">
+    <a href="funciones.html" class="page-nav-link prev"><i class="fas fa-arrow-left"></i><div><span>Anterior</span><strong>Funciones</strong></div></a>
+    <a href="tecnologias.html" class="page-nav-link next"><div><span>Siguiente</span><strong>Tecnologías</strong></div><i class="fas fa-arrow-right"></i></a>
+</div></section>
+</main>
+<footer class="footer">
+    <div class="container footer-content">
+        <div class="footer-brand"><a href="index.html" class="logo"><span class="logo-g3b">G3B</span><span class="logo-keys">Keys</span></a><p>Sistema de Gestión de Venta de Keys de Videojuegos.</p></div>
+        <div class="footer-links"><h4>Navegación</h4><a href="index.html">Inicio</a><a href="proyecto.html">Proyecto</a><a href="funciones.html">Funciones</a><a href="tecnologias.html">Tecnologías</a></div>
+        <div class="footer-links"><h4>Proyecto</h4><a href="base_de_datos.html">Base de datos</a><a href="equipo.html">Equipo</a><a href="contacto.html">Contacto</a></div>
+    </div>
+    <div class="footer-bottom"><p>© <span id="currentYear"></span> G3BKeys. Proyecto académico — Módulo 3.1.</p></div>
+</footer>
+<button id="backToTop" class="back-to-top" aria-label="Volver arriba"><i class="fas fa-arrow-up"></i></button>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sobre el proyecto G3BKeys, el problema y nuestra solución.">
+    <title>Proyecto | G3BKeys</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/Logotipo.png">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar container">
+        <  <<a href="index.html" class="logo">
+    <img src="img/Logotipo.png" alt="G3BKeys">
+    <span>G3BKeys</span>
+</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+    <li><a href="index.html"       class="nav-link">Inicio</a></li>
+    <li><a href="proyecto.html"    class="nav-link">Proyecto</a></li>
+    <li><a href="funciones.html"   class="nav-link">Funciones</a></li>
+    <li><a href="productos.html"    class="nav-link">Productos</a></li>
+    <li><a href="tecnologias.html" class="nav-link">Tecnologías</a></li> 
+    <li><a href="base-datos.html"  class="nav-link">Base de datos</a></li>
+    <li><a href="equipo.html"      class="nav-link">Equipo</a></li>
+    <li>
+        <a href="contacto.html" class="nav-link nav-cta">
+            <i class="fas fa-headset"></i> Contacto
+        </a>
+    </li>
+</ul>
+    </nav>
+</header>
+
+<main>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+    <div class="hero-background"></div>
+    <div class="container page-hero-content">
+        <span class="page-hero-label">01 — SOBRE EL PROYECTO</span>
+        <h1>¿Qué es <span>G3BKeys</span>?</h1>
+        <p>Una solución desarrollada para mejorar la administración de una tienda dedicada a la venta de códigos digitales de videojuegos.</p>
+        <nav class="breadcrumb">
+            <a href="index.html">Inicio</a>
+            <i class="fas fa-chevron-right"></i>
+            <span>Proyecto</span>
+        </nav>
+    </div>
+</section>
+
+<!-- SOBRE EL PROYECTO -->
+<section class="section">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-content">
+                <h3>Gestión organizada para una tienda de videojuegos</h3>
+                <p>G3BKeys nace como una propuesta para solucionar los problemas que pueden presentarse cuando el inventario y las ventas de keys se administran de forma manual.</p>
+                <p>El sistema permite centralizar la información y facilitar la administración de clientes, proveedores, categorías, productos y ventas.</p>
+
+                <div class="about-highlight">
+                    <i class="fas fa-shield-halved"></i>
+                    <div>
+                        <strong>Mayor control y confiabilidad</strong>
+                        <p>El sistema ayuda a mantener un registro organizado de cada key y cada transacción.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-visual">
+                <div class="project-image-card">
+                    <img src="img/tienda.jpeg" alt="Vista del proyecto G3BKeys">
+                    <div class="project-image-caption">
+                        <i class="fas fa-gamepad"></i>
+                        <div>
+                            <strong>G3BKeys</strong>
+                            <span>Sistema de Gestión de Venta de Keys de Videojuegos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROBLEMA -->
+<section class="problem-section">
+    <div class="container">
+        <div class="section-header light">
+            <span class="section-label">02 — EL PROBLEMA</span>
+            <h2>¿Qué problema <span>resolvemos?</span></h2>
+            <p>La administración manual puede provocar diferentes dificultades en el control de las keys y las ventas.</p>
+        </div>
+
+        <div class="problem-grid">
+            <article class="problem-card">
+                <div class="problem-number">01</div>
+                <i class="fas fa-clock"></i>
+                <h3>Pérdida de tiempo</h3>
+                <p>Buscar manualmente entre diferentes archivos, hojas o conversaciones si una key está disponible.</p>
+            </article>
+            <article class="problem-card">
+                <div class="problem-number">02</div>
+                <i class="fas fa-triangle-exclamation"></i>
+                <h3>Errores humanos</h3>
+                <p>Copiar incorrectamente un código o marcar una key como disponible después de haber sido vendida.</p>
+            </article>
+            <article class="problem-card">
+                <div class="problem-number">03</div>
+                <i class="fas fa-copy"></i>
+                <h3>Información duplicada</h3>
+                <p>Clientes o keys pueden aparecer registrados varias veces o con información diferente.</p>
+            </article>
+            <article class="problem-card">
+                <div class="problem-number">04</div>
+                <i class="fas fa-database"></i>
+                <h3>Pérdida de información</h3>
+                <p>Los códigos pueden quedar dispersos entre chats, notas y diferentes archivos.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- SOLUCIÓN -->
+<section class="section solution-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">03 — NUESTRA SOLUCIÓN</span>
+            <h2>Una gestión <span>centralizada</span></h2>
+            <p>G3BKeys reúne en un solo sistema las principales operaciones necesarias para administrar una tienda de keys.</p>
+        </div>
+
+        <div class="solution-grid">
+            <div class="solution-item">
+                <div class="solution-icon"><i class="fas fa-boxes-stacked"></i></div>
+                <div>
+                    <h3>Inventario centralizado</h3>
+                    <p>Consulta y administra las keys disponibles desde un mismo sistema.</p>
+                </div>
+            </div>
+            <div class="solution-item">
+                <div class="solution-icon"><i class="fas fa-tags"></i></div>
+                <div>
+                    <h3>Estado de cada Key</h3>
+                    <p>Control del estado de cada producto: disponible o vendido.</p>
+                </div>
+            </div>
+            <div class="solution-item">
+                <div class="solution-icon"><i class="fas fa-receipt"></i></div>
+                <div>
+                    <h3>Registro de ventas</h3>
+                    <p>Las ventas quedan asociadas al cliente, usuario y productos correspondientes.</p>
+                </div>
+            </div>
+            <div class="solution-item">
+                <div class="solution-icon"><i class="fas fa-file-lines"></i></div>
+                <div>
+                    <h3>Reportes</h3>
+                    <p>Generación de reportes de ventas e inventario en formatos como PDF o Excel.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ALCANCES -->
+<section class="scope-section">
+    <div class="container">
+        <div class="scope-grid">
+            <div class="scope-column">
+                <div class="scope-title">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>El sistema hará</h3>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Registrar clientes y proveedores.</li>
+                    <li><i class="fas fa-check"></i> Administrar categorías y productos.</li>
+                    <li><i class="fas fa-check"></i> Controlar el estado de cada key.</li>
+                    <li><i class="fas fa-check"></i> Registrar ventas.</li>
+                    <li><i class="fas fa-check"></i> Generar reportes.</li>
+                    <li><i class="fas fa-check"></i> Gestionar usuarios y roles.</li>
+                </ul>
+            </div>
+
+            <div class="scope-column no">
+                <div class="scope-title">
+                    <i class="fas fa-circle-xmark"></i>
+                    <h3>Primera versión no incluirá</h3>
+                </div>
+                <ul>
+                    <li><i class="fas fa-xmark"></i> Pasarela de pago en línea.</li>
+                    <li><i class="fas fa-xmark"></i> Compras directas desde una tienda web.</li>
+                    <li><i class="fas fa-xmark"></i> Envío automático de keys por correo.</li>
+                    <li><i class="fas fa-xmark"></i> Integración con APIs oficiales.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PAGE NAV -->
+<section class="page-nav-section">
+    <div class="container page-nav">
+        <a href="index.html" class="page-nav-link prev">
+            <i class="fas fa-arrow-left"></i>
+            <div><span>Anterior</span><strong>Inicio</strong></div>
+        </a>
+        <a href="funciones.html" class="page-nav-link next">
+            <div><span>Siguiente</span><strong>Funciones</strong></div>
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <div class="footer-brand">
+            <a href="index.html" class="logo">
+                <span class="logo-g3b">G3B</span><span class="logo-keys">Keys</span>
+            </a>
+            <p>Sistema de Gestión de Venta de Keys de Videojuegos.</p>
+        </div>
+        <div class="footer-links">
+            <h4>Navegación</h4>
+            <a href="index.html">Inicio</a>
+            <a href="proyecto.html">Proyecto</a>
+            <a href="funciones.html">Funciones</a>
+            <a href="tecnologias.html">Tecnologías</a>
+        </div>
+        <div class="footer-links">
+            <h4>Proyecto</h4>
+            <a href="productos.html">Productos</a>
+            <a href="base_de_datos.html">Base de datos</a>
+            <a href="equipo.html">Equipo</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> G3BKeys. Proyecto académico — Módulo 3.1.</p>
+    </div>
+</footer>
+
+<button id="backToTop" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

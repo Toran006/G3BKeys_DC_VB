@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "compania": "Nintendo",
+    "nombre": "The Legend of Zelda: Tears of the Kingdom",
+    "precio_usd_referencial": 69.99,
+    "descripcion": "Aventura de mundo abierto donde Link explora Hyrule y resuelve desafíos.",
+    "imagen": "img/The_Legend_of_Zelda_tears_of_the_kingdom.jpg"
+  },
+  {
+    "id": 2,
+    "compania": "Nintendo",
+    "nombre": "Super Mario Bros. Wonder",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Plataformas 2D con transformaciones sorprendentes y niveles creativos.",
+    "imagen": "img/Super_Mario_Bros_Wonder.jpg"
+  },
+  {
+    "id": 3,
+    "compania": "Nintendo",
+    "nombre": "Mario Kart 8 Deluxe",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Carreras arcade con personajes de Nintendo, circuitos y multijugador.",
+    "imagen": "img/juegos/mario-kart-8-deluxe.jpg"
+  },
+  {
+    "id": 4,
+    "compania": "Nintendo",
+    "nombre": "Super Smash Bros. Ultimate",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Juego de lucha con personajes de distintas franquicias de Nintendo y otras sagas.",
+    "imagen": "img/juegos/super-smash-bros-ultimate.jpg"
+  },
+  {
+    "id": 5,
+    "compania": "Nintendo",
+    "nombre": "Animal Crossing: New Horizons",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Simulación de vida en una isla personalizable con actividades y vecinos.",
+    "imagen": "img/juegos/animal-crossing-new-horizons.jpg"
+  },
+  {
+    "id": 6,
+    "compania": "Nintendo",
+    "nombre": "Pokémon Scarlet",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "RPG de captura y entrenamiento de Pokémon en una región de mundo abierto.",
+    "imagen": "img/juegos/pokemon-scarlet.jpg"
+  },
+  {
+    "id": 7,
+    "compania": "Nintendo",
+    "nombre": "Metroid Dread",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Aventura de acción y exploración con Samus en un planeta peligroso.",
+    "imagen": "img/juegos/metroid-dread.jpg"
+  },
+  {
+    "id": 8,
+    "compania": "Nintendo",
+    "nombre": "Luigi's Mansion 3",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Aventura de puzles donde Luigi explora un hotel embrujado.",
+    "imagen": "img/juegos/luigis-mansion-3.jpg"
+  },
+  {
+    "id": 9,
+    "compania": "Nintendo",
+    "nombre": "Pikmin 4",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Estrategia y exploración guiada por pequeñas criaturas llamadas Pikmin.",
+    "imagen": "img/juegos/pikmin-4.jpg"
+  },
+  {
+    "id": 10,
+    "compania": "PlayStation",
+    "nombre": "Marvel's Spider-Man 2",
+    "precio_usd_referencial": 69.99,
+    "descripcion": "Aventura de acción en mundo abierto protagonizada por Peter Parker y Miles Morales.",
+    "imagen": "img/juegos/marvels-spider-man-2.jpg"
+  },
+  {
+    "id": 11,
+    "compania": "PlayStation",
+    "nombre": "God of War Ragnarök",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Aventura de acción mitológica centrada en Kratos y Atreus.",
+    "imagen": "img/juegos/god-of-war-ragnarok.jpg"
+  },
+  {
+    "id": 12,
+    "compania": "PlayStation",
+    "nombre": "The Last of Us Part I",
+    "precio_usd_referencial": 69.99,
+    "descripcion": "Aventura narrativa de supervivencia en un mundo devastado.",
+    "imagen": "img/juegos/the-last-of-us-part-i.jpg"
+  },
+  {
+    "id": 13,
+    "compania": "PlayStation",
+    "nombre": "Gran Turismo 7",
+    "precio_usd_referencial": 69.99,
+    "descripcion": "Simulador de conducción con coches, circuitos y opciones de competición.",
+    "imagen": "img/juegos/gran-turismo-7.jpg"
+  },
+  {
+    "id": 14,
+    "compania": "PlayStation",
+    "nombre": "Horizon Forbidden West",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Aventura de acción en un mundo posapocalíptico lleno de máquinas.",
+    "imagen": "img/juegos/horizon-forbidden-west.jpg"
+  },
+  {
+    "id": 15,
+    "compania": "PlayStation",
+    "nombre": "Ghost of Tsushima Director's Cut",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Aventura de mundo abierto ambientada en el Japón feudal.",
+    "imagen": "img/juegos/ghost-of-tsushima.jpg"
+  },
+  {
+    "id": 16,
+    "compania": "PlayStation",
+    "nombre": "Ratchet & Clank: Rift Apart",
+    "precio_usd_referencial": 69.99,
+    "descripcion": "Plataformas y acción con viajes entre dimensiones y combates futuristas.",
+    "imagen": "img/juegos/ratchet-and-clank-rift-apart.jpg"
+  },
+  {
+    "id": 17,
+    "compania": "PlayStation",
+    "nombre": "Returnal",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Shooter roguelike de ciencia ficción con ciclos de combate y exploración.",
+    "imagen": "img/juegos/returnal.jpg"
+  },
+  {
+    "id": 18,
+    "compania": "PlayStation",
+    "nombre": "Demon's Souls",
+    "precio_usd_referencial": 69.99,
+    "descripcion": "RPG de acción desafiante ambientado en un reino de fantasía oscura.",
+    "imagen": "img/juegos/demons-souls.jpg"
+  },
+  {
+    "id": 19,
+    "compania": "Xbox",
+    "nombre": "Forza Horizon 5",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Carreras de mundo abierto ambientadas en paisajes variados de México.",
+    "imagen": "img/juegos/forza-horizon-5.jpg"
+  },
+  {
+    "id": 20,
+    "compania": "Xbox",
+    "nombre": "Halo Infinite",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Shooter de ciencia ficción con campaña y modos multijugador.",
+    "imagen": "img/juegos/halo-infinite.jpg"
+  },
+  {
+    "id": 21,
+    "compania": "Xbox",
+    "nombre": "Starfield",
+    "precio_usd_referencial": 69.99,
+    "descripcion": "RPG espacial para explorar planetas, construir naves y completar misiones.",
+    "imagen": "img/juegos/starfield.jpg"
+  },
+  {
+    "id": 22,
+    "compania": "Xbox",
+    "nombre": "Microsoft Flight Simulator",
+    "precio_usd_referencial": 69.99,
+    "descripcion": "Simulador de vuelo con aeronaves y recreaciones detalladas del planeta.",
+    "imagen": "img/juegos/microsoft-flight-simulator.jpg"
+  },
+  {
+    "id": 23,
+    "compania": "Xbox",
+    "nombre": "Gears 5",
+    "precio_usd_referencial": 39.99,
+    "descripcion": "Shooter de acción en tercera persona con campaña cooperativa y multijugador.",
+    "imagen": "img/juegos/gears-5.jpg"
+  },
+  {
+    "id": 24,
+    "compania": "Xbox",
+    "nombre": "Sea of Thieves",
+    "precio_usd_referencial": 39.99,
+    "descripcion": "Aventura multijugador de piratas, exploración y búsqueda de tesoros.",
+    "imagen": "img/juegos/sea-of-thieves.jpg"
+  },
+  {
+    "id": 25,
+    "compania": "Xbox",
+    "nombre": "Ori and the Will of the Wisps",
+    "precio_usd_referencial": 29.99,
+    "descripcion": "Plataformas y aventura con exploración, habilidades y arte colorido.",
+    "imagen": "img/juegos/ori-and-the-will-of-the-wisps.jpg"
+  },
+  {
+    "id": 26,
+    "compania": "Xbox",
+    "nombre": "Psychonauts 2",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Plataformas de aventura con poderes psíquicos y mundos imaginativos.",
+    "imagen": "img/juegos/psychonauts-2.jpg"
+  },
+  {
+    "id": 27,
+    "compania": "Epic Games Store",
+    "nombre": "Fortnite",
+    "precio_usd_referencial": 0.0,
+    "descripcion": "Battle royale gratuito con modos creativos y contenido cosmético opcional.",
+    "imagen": "img/juegos/fortnite.jpg"
+  },
+  {
+    "id": 28,
+    "compania": "Epic Games Store",
+    "nombre": "Alan Wake 2",
+    "precio_usd_referencial": 49.99,
+    "descripcion": "Survival horror narrativo que combina misterio, investigación y terror.",
+    "imagen": "img/juegos/alan-wake-2.jpg"
+  },
+  {
+    "id": 29,
+    "compania": "Epic Games Store",
+    "nombre": "Dead Island 2",
+    "precio_usd_referencial": 49.99,
+    "descripcion": "Acción de supervivencia contra zombis en una versión ficticia de Los Ángeles.",
+    "imagen": "img/juegos/dead-island-2.jpg"
+  },
+  {
+    "id": 30,
+    "compania": "Epic Games Store",
+    "nombre": "The Lord of the Rings: Return to Moria",
+    "precio_usd_referencial": 24.99,
+    "descripcion": "Supervivencia y construcción cooperativa en las minas de Moria.",
+    "imagen": "img/juegos/return-to-moria.jpg"
+  },
+  {
+    "id": 31,
+    "compania": "Epic Games Store",
+    "nombre": "Sifu",
+    "precio_usd_referencial": 39.99,
+    "descripcion": "Juego de combate cuerpo a cuerpo con progresión basada en la edad del protagonista.",
+    "imagen": "img/juegos/sifu.jpg"
+  },
+  {
+    "id": 32,
+    "compania": "Epic Games Store",
+    "nombre": "Kingdom Hearts III",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "RPG de acción que reúne personajes de Disney y Kingdom Hearts.",
+    "imagen": "img/juegos/kingdom-hearts-3.jpg"
+  },
+  {
+    "id": 33,
+    "compania": "Epic Games Store",
+    "nombre": "Borderlands 3",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Shooter looter con humor, habilidades y una gran variedad de armas.",
+    "imagen": "img/juegos/borderlands-3.jpg"
+  },
+  {
+    "id": 34,
+    "compania": "Epic Games Store",
+    "nombre": "Rogue Legacy 2",
+    "precio_usd_referencial": 24.99,
+    "descripcion": "Plataformas roguelite donde cada heredero tiene características distintas.",
+    "imagen": "img/juegos/rogue-legacy-2.jpg"
+  },
+  {
+    "id": 35,
+    "compania": "Ubisoft Connect",
+    "nombre": "Assassin's Creed Mirage",
+    "precio_usd_referencial": 49.99,
+    "descripcion": "Aventura de sigilo ambientada en Bagdad durante la Edad de Oro islámica.",
+    "imagen": "img/juegos/assassins-creed-mirage.jpg"
+  },
+  {
+    "id": 36,
+    "compania": "Ubisoft Connect",
+    "nombre": "Assassin's Creed Valhalla",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "RPG de acción sobre incursiones vikingas y exploración de Inglaterra.",
+    "imagen": "img/juegos/assassins-creed-valhalla.jpg"
+  },
+  {
+    "id": 37,
+    "compania": "Ubisoft Connect",
+    "nombre": "Far Cry 6",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Shooter de mundo abierto ambientado en una isla bajo un régimen autoritario.",
+    "imagen": "img/juegos/far-cry-6.jpg"
+  },
+  {
+    "id": 38,
+    "compania": "Ubisoft Connect",
+    "nombre": "Tom Clancy's Rainbow Six Siege",
+    "precio_usd_referencial": 19.99,
+    "descripcion": "Shooter táctico por equipos centrado en operadores y destrucción de escenarios.",
+    "imagen": "img/juegos/rainbow-six-siege.jpg"
+  },
+  {
+    "id": 39,
+    "compania": "Ubisoft Connect",
+    "nombre": "The Division 2",
+    "precio_usd_referencial": 29.99,
+    "descripcion": "Shooter RPG cooperativo ambientado en una Washington devastada.",
+    "imagen": "img/juegos/the-division-2.jpg"
+  },
+  {
+    "id": 40,
+    "compania": "Ubisoft Connect",
+    "nombre": "Watch Dogs: Legion",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Acción de mundo abierto donde puedes reclutar personajes en una Londres futurista.",
+    "imagen": "img/juegos/watch-dogs-legion.jpg"
+  },
+  {
+    "id": 41,
+    "compania": "Ubisoft Connect",
+    "nombre": "The Crew Motorfest",
+    "precio_usd_referencial": 69.99,
+    "descripcion": "Juego de conducción de mundo abierto con eventos y vehículos variados.",
+    "imagen": "img/juegos/the-crew-motorfest.jpg"
+  },
+  {
+    "id": 42,
+    "compania": "Ubisoft Connect",
+    "nombre": "Prince of Persia: The Lost Crown",
+    "precio_usd_referencial": 49.99,
+    "descripcion": "Aventura de acción y plataformas con combate y exploración estilo metroidvania.",
+    "imagen": "img/juegos/prince-of-persia-the-lost-crown.jpg"
+  },
+  {
+    "id": 43,
+    "compania": "Steam",
+    "nombre": "Baldur's Gate 3",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "RPG por turnos con decisiones narrativas, exploración y juego cooperativo.",
+    "imagen": "img/juegos/baldurs-gate-3.jpg"
+  },
+  {
+    "id": 44,
+    "compania": "Steam",
+    "nombre": "Elden Ring",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "RPG de acción de mundo abierto con exploración y combates exigentes.",
+    "imagen": "img/juegos/elden-ring.jpg"
+  },
+  {
+    "id": 45,
+    "compania": "Steam",
+    "nombre": "Cyberpunk 2077",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "RPG de acción ambientado en una ciudad futurista y llena de conflictos.",
+    "imagen": "img/juegos/cyberpunk-2077.jpg"
+  },
+  {
+    "id": 46,
+    "compania": "Steam",
+    "nombre": "Stardew Valley",
+    "precio_usd_referencial": 14.99,
+    "descripcion": "Simulador de granja con cultivo, pesca, minería y relaciones con habitantes.",
+    "imagen": "img/juegos/stardew-valley.jpg"
+  },
+  {
+    "id": 47,
+    "compania": "Steam",
+    "nombre": "Hades",
+    "precio_usd_referencial": 24.99,
+    "descripcion": "Acción roguelike donde Zagreus intenta escapar del inframundo griego.",
+    "imagen": "img/juegos/hades.jpg"
+  },
+  {
+    "id": 48,
+    "compania": "Steam",
+    "nombre": "Hogwarts Legacy",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "RPG de acción ambientado en el mundo mágico de Harry Potter.",
+    "imagen": "img/juegos/hogwarts-legacy.jpg"
+  },
+  {
+    "id": 49,
+    "compania": "Steam",
+    "nombre": "Portal 2",
+    "precio_usd_referencial": 9.99,
+    "descripcion": "Juego de puzles en primera persona basado en portales y física.",
+    "imagen": "img/juegos/portal-2.jpg"
+  },
+  {
+    "id": 50,
+    "compania": "Steam",
+    "nombre": "Red Dead Redemption 2",
+    "precio_usd_referencial": 59.99,
+    "descripcion": "Aventura de mundo abierto sobre una banda de forajidos en el oeste.",
+    "imagen": "img/juegos/red-dead-redemption-2.jpg"
+  }
+]

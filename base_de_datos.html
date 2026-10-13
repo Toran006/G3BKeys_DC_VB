@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estructura de la base de datos de G3BKeys.">
+    <title>Base de datos | G3BKeys</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/Logotipo.png">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar container">
+          <a href="index.html" class="logo">
+    <img src="img/Logotipo.png" alt="G3BKeys">
+    <span>G3BKeys</span>
+</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+    <li><a href="index.html"       class="nav-link">Inicio</a></li>
+    <li><a href="proyecto.html"    class="nav-link">Proyecto</a></li>
+    <li><a href="funciones.html"   class="nav-link">Funciones</a></li>
+    <li><a href="productos.html"    class="nav-link">Productos</a></li>
+    <li><a href="tecnologias.html" class="nav-link">Tecnologías</a></li> 
+    <li><a href="base_de_datos.html"  class="nav-link">Base de datos</a></li>
+    <li><a href="equipo.html"      class="nav-link">Equipo</a></li>
+    <li>
+        <a href="contacto.html" class="nav-link nav-cta">
+            <i class="fas fa-headset"></i> Contacto
+        </a>
+    </li>
+</ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="page-hero">
+    <div class="hero-background"></div>
+    <div class="container page-hero-content">
+        <span class="page-hero-label">06 — BASE DE DATOS</span>
+        <h1>Estructura de <span>G3BKeys</span></h1>
+        <p>El sistema utiliza diferentes entidades relacionadas para mantener la información organizada.</p>
+        <nav class="breadcrumb">
+            <a href="index.html">Inicio</a>
+            <i class="fas fa-chevron-right"></i>
+            <span>Base de datos</span>
+        </nav>
+    </div>
+</section>
+
+<section class="section database-section">
+    <div class="container">
+
+        <div class="database-container">
+            <div class="database-box">
+                <div class="db-icon"><i class="fas fa-users"></i></div>
+                <h3>Cliente</h3>
+                <p>Información de las personas que compran keys.</p>
+            </div>
+            <div class="db-line"><i class="fas fa-arrow-right"></i></div>
+            <div class="database-box highlight-box">
+                <div class="db-icon"><i class="fas fa-receipt"></i></div>
+                <h3>Venta</h3>
+                <p>Registro de las transacciones realizadas.</p>
+            </div>
+            <div class="db-line"><i class="fas fa-arrow-right"></i></div>
+            <div class="database-box">
+                <div class="db-icon"><i class="fas fa-list"></i></div>
+                <h3>DetalleVenta</h3>
+                <p>Keys incluidas en cada venta.</p>
+            </div>
+            <div class="db-line"><i class="fas fa-arrow-right"></i></div>
+            <div class="database-box highlight-box">
+                <div class="db-icon"><i class="fas fa-key"></i></div>
+                <h3>Producto</h3>
+                <p>Códigos digitales disponibles para la venta.</p>
+            </div>
+        </div>
+
+        <div class="database-secondary">
+            <div class="secondary-item"><i class="fas fa-layer-group"></i><span>Categoría</span></div>
+            <div class="secondary-item"><i class="fas fa-building"></i><span>Proveedor</span></div>
+            <div class="secondary-item"><i class="fas fa-user-shield"></i><span>Usuario</span></div>
+        </div>
+
+        <div class="database-image">
+            <h3>Diagrama relacional</h3>
+            <img src="img/Base_Datos.jpeg" alt="Diagrama entidad-relación de G3BKeys">
+        </div>
+
+    </div>
+</section>
+
+<section class="page-nav-section">
+    <div class="container page-nav">
+        <a href="tecnologias.html" class="page-nav-link prev">
+            <i class="fas fa-arrow-left"></i>
+            <div><span>Anterior</span><strong>Tecnologías</strong></div>
+        </a>
+        <a href="equipo.html" class="page-nav-link next">
+            <div><span>Siguiente</span><strong>Equipo</strong></div>
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <div class="footer-brand">
+            <a href="index.html" class="logo">
+                <span class="logo-g3b">G3B</span><span class="logo-keys">Keys</span>
+            </a>
+            <p>Sistema de Gestión de Venta de Keys de Videojuegos.</p>
+        </div>
+        <div class="footer-links">
+            <h4>Navegación</h4>
+            <a href="index.html">Inicio</a>
+            <a href="proyecto.html">Proyecto</a>
+            <a href="funciones.html">Funciones</a>
+            <a href="tecnologias.html">Tecnologías</a>
+        </div>
+        <div class="footer-links">
+            <h4>Proyecto</h4>
+            <a href="productos.html">Productos</a>
+            <a href="base_de_datos.html">Base de datos</a>
+            <a href="equipo.html">Equipo</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> G3BKeys. Proyecto académico — Módulo 3.1.</p>
+    </div>
+</footer>
+
+<button id="backToTop" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
